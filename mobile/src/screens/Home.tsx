@@ -12,8 +12,8 @@ import dayjs from 'dayjs';
 
 const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
 const datesFromYearStart = generateRangeDatesFromYearStart();
-const minimunSummaryDatesSizes = 18 * 5;
-const amountOfDaysToFill = minimunSummaryDatesSizes - datesFromYearStart.length
+const minimumSummaryDatesSizes = 18 * 5;
+const amountOfDaysToFill = minimumSummaryDatesSizes - datesFromYearStart.length
 
 type SummaryProps = Array<{
   id: string;
